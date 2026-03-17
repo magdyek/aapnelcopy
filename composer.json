@@ -1,0 +1,13 @@
+{
+    "name": "magdy/aapanel-smart-migrator",
+    "description": "Smart Migrator for aaPanel servers",
+    "type": "project",
+    "require": {
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Migrator\\": "src/"
+        }
+    }
+}
